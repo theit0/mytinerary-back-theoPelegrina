@@ -1,0 +1,92 @@
+[
+    {
+        "name": "Buenos Aires",
+        "country": "Argentina",
+        "img": "https://i.ibb.co/YB84MFz/hike-by-a-smoky-river.jpg",
+        "descr": "Buenos Aires, the vibrant capital of Argentina, is a city known for its rich cultural heritage, tango music, and stunning architecture. Explore the historic neighborhoods, indulge in delicious Argentine cuisine, and immerse yourself in the passionate energy of this South American gem."
+    },
+    {
+        "name": "Paris",
+        "country": "France",
+        "img": "https://i.ibb.co/Hpb6f59/eiffel-tower-on-cloudy-day.jpg",
+        "descr": "Paris, the romantic city of lights, is a global center for art, fashion, and culture. Iconic landmarks like the Eiffel Tower and the Louvre Museum, along with charming cafés and the Seine River, create an enchanting atmosphere that has captivated visitors for centuries."
+    },
+    {
+        "name": "Madrid",
+        "country": "Spain",
+        "img": "https://i.ibb.co/RCHNSHz/pexels-alex-azabache-3722818.jpg",
+        "descr": "Madrid, the vibrant capital of Spain, is a city that combines historic charm with modern energy. Explore world-class museums, savor delicious tapas, and soak up the lively atmosphere in its bustling plazas, all while experiencing the warm hospitality of the Spanish people."
+    },
+    {
+        "name": "Nueva Delhi",
+        "country": "India",
+        "img": "https://i.ibb.co/qJk0zfk/camels-resting.jpg",
+        "descr": "Nueva Delhi, the capital of India, is a city of contrasts, where ancient traditions meet modern aspirations. Explore the historic Red Fort, wander through bustling markets, and experience the vibrant cultural mosaic that makes this city a captivating destination."
+    },
+    {
+        "name": "Bangkok",
+        "country": "Thailand",
+        "img": "https://i.ibb.co/18VC3nf/golden-thailand-canyon-sunset.jpg",
+        "descr": "Bangkok, the bustling capital of Thailand, is a city of vibrant street life, ornate temples, and bustling markets. Immerse yourself in the flavors of Thai cuisine, explore the Grand Palace, and discover the energetic spirit that makes Bangkok a must-visit in Southeast Asia."
+    },
+    {
+        "name": "Roma",
+        "country": "Italy",
+        "img": "https://i.ibb.co/Dbdpgr9/roman-holiday.jpg",
+        "descr": "Rome, the eternal city, is a treasure trove of history and art. From the Colosseum to the Vatican, the city is a living museum. Enjoy the finest Italian cuisine, wander through charming streets, and bask in the romantic ambiance of this captivating city."
+    },
+    {
+        "name": "Baku",
+        "country": "Azerbaijan",
+        "img": "https://i.ibb.co/58rNwGx/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
+        "descr": "Baku, the capital of Azerbaijan, is a fascinating blend of modern architecture and historic charm. Explore the futuristic Flame Towers, visit the ancient Palace of the Shirvanshahs, and experience the unique cultural blend that makes Baku a rising star in the travel world."
+    },
+    {
+        "name": "Tokyo",
+        "country": "Japan",
+        "img": "https://i.ibb.co/MhmpmMJ/commuters-on-the-streets-of-neon-tokyo.jpg",
+        "descr": "Tokyo, the bustling capital of Japan, is a city where tradition and innovation coexist. From serene temples to futuristic skyscrapers, there's always something new to discover. Experience the efficiency and hospitality of Japanese culture while exploring the diverse neighborhoods of this captivating metropolis."
+    },
+    {
+        "name": "Seoul",
+        "country": "South Korea",
+        "img": "https://i.ibb.co/1qmsKwM/tourists-visit-an-intricate-structure.jpg",
+        "descr": "Seoul, the dynamic capital of South Korea, is a city that seamlessly blends ancient traditions with modern technology. Explore historic palaces, indulge in delicious Korean cuisine, and discover the K-pop culture that has captured the world's attention."
+    },
+    {
+        "name": "Vienna",
+        "country": "Austria",
+        "img": "https://i.ibb.co/h12YrCQ/apartments-overlooking-a-canal.jpg",
+        "descr": "Vienna, the elegant capital of Austria, is a city known for its rich musical heritage, stunning architecture, and coffeehouse culture. From the grand Schönbrunn Palace to the opulent State Opera, Vienna's beauty and sophistication make it a true European gem."
+    },
+    {
+        "name": "Santiago",
+        "country": "Chile",
+        "img": "https://i.ibb.co/6RcXqHN/pexels-alexis-leandro-jeria-bocca-17347192.jpg",
+        "descr": "Santiago, the vibrant capital of Chile, is nestled against the backdrop of the stunning Andes mountains. Explore the historic city center, enjoy Chilean wine, and experience the blend of European and South American influences that make Santiago a unique and captivating destination."
+    },
+    {
+        "name": "Cancun",
+        "country": "Mexico",
+        "img": "https://i.ibb.co/56j9pWR/pexels-ricky-esquivel-1802255.jpg",
+        "descr": "Cancun, the world-famous resort city in Mexico, is known for its beautiful beaches, turquoise waters, and vibrant nightlife. Relax on the pristine shores, explore ancient Mayan ruins, and immerse yourself in the lively atmosphere that makes Cancun a paradise for travelers."
+    },
+    {
+        "name": "Havana",
+        "country": "Cuba",
+        "img": "https://i.ibb.co/b3ZD7gF/pexels-alex-azabache-3182452.jpg",
+        "descr": "Havana, the colorful capital of Cuba, is a city steeped in history and vibrant culture. Explore the charming old town with its vintage cars, dance to the rhythm of salsa music, and enjoy the warmth and hospitality of the Cuban people."
+    },
+    {
+        "name": "London",
+        "country": "England",
+        "img": "https://i.ibb.co/QcL9x9M/telephone-booth-in-london-england.jpg",
+        "descr": "London, the iconic capital of England, is a city of timeless landmarks, rich history, and multicultural vibrancy. From the historic Tower of London to the modern London Eye, the city offers a diverse array of experiences, along with its renowned theater scene and diverse culinary delights."
+    },
+    {
+        "name": "New York",
+        "country": "United States",
+        "img": "https://i.ibb.co/TwcMD12/un-ending-new-york-skyline.jpg",
+        "descr": "New York, the city that never sleeps, is a global hub of culture, art, and business. Experience the iconic skyline, explore world-class museums, and immerse yourself in the energy of the diverse neighborhoods that make this metropolis a truly unique and vibrant destination."
+    }
+]
