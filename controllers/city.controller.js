@@ -12,7 +12,7 @@ const controller = {
         //Si quiero otra query hago otro if
 
         try {
-            const cities = await City.find(queries)
+            const cities = await City.find(queries).populate('user')
             
             if ( cities.length ) {
                 return res.status(200).json({
@@ -56,7 +56,7 @@ const controller = {
     },
     createCities: async (req,res) => {
         try {
-            const newCity = await City.create(req.body).populate('user')
+            const newCity = await City.create(req.body)
             return res.status(201).json({
                 success:true,
                 message: 'City created'
@@ -68,7 +68,35 @@ const controller = {
             })
         }
     },
-    putCities:'',
-    deleteCities: '',
+    updateCity: async (req,res) => {
+        try {
+            await City.updateOne({_id:req.params.id},req.body)
+
+            return res.status(200).json({
+                success:true,
+                message: "City updated"
+            })
+        } catch (error) {
+            return res.status(500).json({
+                success:false,
+                message: 'Error at updating the city'
+            })
+        }
+    },
+    deleteCity: async (req,res) => {
+        try {
+            await City.deleteOne({_id:req.params.id},req.body)
+
+            return res.status(200).json({
+                success:true,
+                message: "City deleted"
+            })
+        } catch (error) {
+            return res.status(500).json({
+                success:false,
+                message: 'Error at deleting the city'
+            })
+        } 
+    },
 }
 export default controller;
