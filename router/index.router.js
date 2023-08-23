@@ -11,5 +11,4 @@ router.get('/', (req,res)=>{
 router.use('/cities',cityRouter);
 router.use('/users',userRouter);
 
-
 export default router;
