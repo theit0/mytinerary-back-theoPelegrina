@@ -9,7 +9,7 @@ const schema = new Schema({
     img: {type:String,required:true},
     descr: {type:String, required:false},
     user: {type:Types.ObjectId, ref:'users'},
-    itineraries: [{ type: Types.ObjectId, ref: 'Itinerary' }]
+    itineraries: [{ type: Types.ObjectId, ref: 'itineraries' }]
 },{
     timestamps:true
 })

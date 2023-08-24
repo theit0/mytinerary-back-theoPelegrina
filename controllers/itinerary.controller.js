@@ -1,21 +1,17 @@
-import Itinerary from "../models/itinerary.model"
+import Itinerary from "../models/itinerary.model.js"
 
 
 const controller = {
-    getItinerary : async (req,res) => {
+    getItineraries : async (req,res) => {
 
-        let queries = {}
-        if(req.query.name) {
-            queries.name = new RegExp(`^${req.query.name}`,'i')
-        } 
 
         try {
-            const itineraries = await Itinerary.find(queries)
+            const itineraries = await Itinerary.find()
             
             if ( itineraries.length ) {
                 return res.status(200).json({
                     success:true,
-                    cities,
+                    itineraries,
                 })
             }
             return res.status(404).json({

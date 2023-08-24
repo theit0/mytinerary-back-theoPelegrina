@@ -12,7 +12,7 @@ const controller = {
         //Si quiero otra query hago otro if
 
         try {
-            const cities = await City.find(queries).populate('user')
+            const cities = await City.find(queries).populate('user').populate('itineraries')
             
             if ( cities.length ) {
                 return res.status(200).json({
@@ -34,7 +34,7 @@ const controller = {
     },
     getCityById : async (req,res) => {
         try {
-            const city = await City.findById(req.params.id).populate('itineraries');
+            const city = await City.findById(req.params.id).populate('itineraries')
             
             if ( city ) {
                 return res.status(200).json({
