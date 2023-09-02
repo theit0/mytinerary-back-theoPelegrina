@@ -5,7 +5,7 @@
         "img": "https://i.ibb.co/QDGhjSv/hike-by-a-smoky-river.jpg",
         "descr": "Buenos Aires, the vibrant capital of Argentina, is a city known for its rich cultural heritage, tango music, and stunning architecture. Explore the historic neighborhoods, indulge in delicious Argentine cuisine, and immerse yourself in the passionate energy of this South American gem.",
         "user": "64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4af6", "64e7527971e227b4b64b4af7", "64e7527971e227b4b64b4af5"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3d0", "64e7e341cbc2c6fe4e15d3d1", "64e7e341cbc2c6fe4e15d3cf"]
     },
     {
         "name": "Paris",
@@ -13,7 +13,7 @@
         "img": "https://i.ibb.co/YQF3s1w/eiffel-tower-on-cloudy-day.jpg",
         "descr": "Paris, the romantic city of lights, is a global center for art, fashion, and culture. Iconic landmarks like the Eiffel Tower and the Louvre Museum, along with charming cafés and the Seine River, create an enchanting atmosphere that has captivated visitors for centuries.",
         "user": "64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4af8"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3d2"]
     },
     {
         "name": "Madrid",
@@ -21,7 +21,7 @@
         "img": "https://i.ibb.co/hMXsQt8/pexels-alex-azabache-3722818.jpg",
         "descr": "Madrid, the vibrant capital of Spain, is a city that combines historic charm with modern energy. Explore world-class museums, savor delicious tapas, and soak up the lively atmosphere in its bustling plazas, all while experiencing the warm hospitality of the Spanish people.",
         "user": "64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4af9"]
+        "itineraries": ["64e7527971e227b4b64b4af9","64e7e341cbc2c6fe4e15d3d3"]
     },
     {
         "name": "Nueva Delhi",
@@ -29,7 +29,7 @@
         "img": "https://i.ibb.co/ZJDWzDd/camels-resting.jpg",
         "descr": "Nueva Delhi, the capital of India, is a city of contrasts, where ancient traditions meet modern aspirations. Explore the historic Red Fort, wander through bustling markets, and experience the vibrant cultural mosaic that makes this city a captivating destination.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4afa"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3d4"]
     },
     {
         "name": "Bangkok",
@@ -37,7 +37,7 @@
         "img": "https://i.ibb.co/VSkRrGH/golden-thailand-canyon-sunset.jpg",
         "descr": "Bangkok, the bustling capital of Thailand, is a city of vibrant street life, ornate temples, and bustling markets. Immerse yourself in the flavors of Thai cuisine, explore the Grand Palace, and discover the energetic spirit that makes Bangkok a must-visit in Southeast Asia.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4afb"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3d5"]
     },
     {
         "name": "Roma",
@@ -45,7 +45,7 @@
         "img": "https://i.ibb.co/RSGBy1C/roman-holiday.jpg",
         "descr": "Rome, the eternal city, is a treasure trove of history and art. From the Colosseum to the Vatican, the city is a living museum. Enjoy the finest Italian cuisine, wander through charming streets, and bask in the romantic ambiance of this captivating city.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4afc"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3d6"]
     },
     {
         "name": "Baku",
@@ -53,7 +53,7 @@
         "img": "https://i.ibb.co/ynjqKKL/person-stands-on-rocks-poking-out-of-the-ocean-shoreline.jpg",
         "descr": "Baku, the capital of Azerbaijan, is a fascinating blend of modern architecture and historic charm. Explore the futuristic Flame Towers, visit the ancient Palace of the Shirvanshahs, and experience the unique cultural blend that makes Baku a rising star in the travel world.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4afd"]
+        "itineraries": ["64e7527971e227b4b64b4afd","64e7e341cbc2c6fe4e15d3d7"]
     },
     {
         "name": "Tokyo",
@@ -61,7 +61,7 @@
         "img": "https://i.ibb.co/p16bNJj/commuters-on-the-streets-of-neon-tokyo.jpg",
         "descr": "Tokyo, the bustling capital of Japan, is a city where tradition and innovation coexist. From serene temples to futuristic skyscrapers, there's always something new to discover. Experience the efficiency and hospitality of Japanese culture while exploring the diverse neighborhoods of this captivating metropolis.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4aff","64e7527971e227b4b64b4afe","64e7527971e227b4b64b4b00"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3d8","64e7e341cbc2c6fe4e15d3d9","64e7e341cbc2c6fe4e15d3da"]
     },
     {
         "name": "Seoul",
@@ -69,7 +69,7 @@
         "img": "https://i.ibb.co/BzjwtVD/tourists-visit-an-intricate-structure.jpg",
         "descr": "Seoul, the dynamic capital of South Korea, is a city that seamlessly blends ancient traditions with modern technology. Explore historic palaces, indulge in delicious Korean cuisine, and discover the K-pop culture that has captured the world's attention.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4b02","64e7527971e227b4b64b4b01","64e7527971e227b4b64b4b03"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3db","64e7e341cbc2c6fe4e15d3dc","64e7e341cbc2c6fe4e15d3dd"]
     },
     {
         "name": "Vienna",
@@ -77,7 +77,7 @@
         "img": "https://i.ibb.co/L66h5fh/apartments-overlooking-a-canal.jpg",
         "descr": "Vienna, the elegant capital of Austria, is a city known for its rich musical heritage, stunning architecture, and coffeehouse culture. From the grand Schönbrunn Palace to the opulent State Opera, Vienna's beauty and sophistication make it a true European gem.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4b04","64e7527971e227b4b64b4b05","64e7527971e227b4b64b4b06"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3de","64e7e341cbc2c6fe4e15d3df","64e7e341cbc2c6fe4e15d3e0"]
     },
     {
         "name": "Santiago",
@@ -85,7 +85,7 @@
         "img": "https://i.ibb.co/jbjvh1p/pexels-alexis-leandro-jeria-bocca-17347192.jpg",
         "descr": "Santiago, the vibrant capital of Chile, is nestled against the backdrop of the stunning Andes mountains. Explore the historic city center, enjoy Chilean wine, and experience the blend of European and South American influences that make Santiago a unique and captivating destination.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4b07","64e7527971e227b4b64b4b08","64e7527971e227b4b64b4b09"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3e2","64e7e341cbc2c6fe4e15d3e3","64e7e341cbc2c6fe4e15d3e1"]
     },
     {
         "name": "Cancun",
@@ -93,7 +93,7 @@
         "img": "https://i.ibb.co/bgZYC1x/pexels-ricky-esquivel-1802255.jpg",
         "descr": "Cancun, the world-famous resort city in Mexico, is known for its beautiful beaches, turquoise waters, and vibrant nightlife. Relax on the pristine shores, explore ancient Mayan ruins, and immerse yourself in the lively atmosphere that makes Cancun a paradise for travelers.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4b0a","64e7527971e227b4b64b4b0c","64e7527971e227b4b64b4b0b"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3e4","64e7e341cbc2c6fe4e15d3e5","64e7e341cbc2c6fe4e15d3e6"]
     },
     {
         "name": "Havana",
@@ -101,7 +101,7 @@
         "img": "https://i.ibb.co/QCQsWpY/pexels-alex-azabache-3182452.jpg",
         "descr": "Havana, the colorful capital of Cuba, is a city steeped in history and vibrant culture. Explore the charming old town with its vintage cars, dance to the rhythm of salsa music, and enjoy the warmth and hospitality of the Cuban people.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4b0d","64e7527971e227b4b64b4b0e","64e7527971e227b4b64b4b0f"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3e9","64e7e341cbc2c6fe4e15d3e7","64e7e341cbc2c6fe4e15d3e8"]
     },
     {
         "name": "London",
@@ -109,7 +109,7 @@
         "img": "https://i.ibb.co/QcL9x9M/telephone-booth-in-london-england.jpg",
         "descr": "London, the iconic capital of England, is a city of timeless landmarks, rich history, and multicultural vibrancy. From the historic Tower of London to the modern London Eye, the city offers a diverse array of experiences, along with its renowned theater scene and diverse culinary delights.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4b11","64e7527971e227b4b64b4b12","64e7527971e227b4b64b4b10"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3ea","64e7e341cbc2c6fe4e15d3eb","64e7e341cbc2c6fe4e15d3ec"]
     },
     {
         "name": "New York",
@@ -117,7 +117,7 @@
         "img": "https://i.ibb.co/DrrpVCP/un-ending-new-york-skyline.jpg",
         "descr": "New York, the city that never sleeps, is a global hub of culture, art, and business. Experience the iconic skyline, explore world-class museums, and immerse yourself in the energy of the diverse neighborhoods that make this metropolis a truly unique and vibrant destination.",
         "user":"64da431e84a20a2c8ee21916",
-        "itineraries": ["64e7527971e227b4b64b4b13","64e7527971e227b4b64b4b14","64e7527971e227b4b64b4b15"]
+        "itineraries": ["64e7e341cbc2c6fe4e15d3ed","64e7e341cbc2c6fe4e15d3ee","64e7e341cbc2c6fe4e15d3ef"]
     }
 ]
 

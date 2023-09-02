@@ -8,7 +8,7 @@ const schema = new Schema({
     by: {type:String,required:true},
     price: {type:Number,required:true},
     img: {type:String,required:true},
-    duration: {type:String, required:false},
+    duration: {type:Number, required:false},
     likes: {type:Number, required:false},
     hastags: [{type:String, required:false}],
 },{
