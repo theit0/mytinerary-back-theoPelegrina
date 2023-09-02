@@ -1,76 +1,70 @@
-import City from '../models/city.model.js'
+import Itinerary from "../models/itinerary.model.js"
 
 
 const controller = {
-    getCities : async (req,res) => {
+    getItineraries : async (req,res) => {
 
-        let queries = {}
-        if(req.query.name) {
-            queries.name = new RegExp(`^${req.query.name}`,'i')
-        } 
-
-        //Si quiero otra query hago otro if
 
         try {
-            const cities = await City.find(queries).populate('user').populate('itineraries')
+            const itineraries = await Itinerary.find()
             
-            if ( cities.length ) {
+            if ( itineraries.length ) {
                 return res.status(200).json({
                     success:true,
-                    cities,
+                    itineraries,
                 })
             }
             return res.status(404).json({
                 success:false,
-                message: 'Error founding events'
+                message: 'Error founding itineraries'
             })
             
         } catch (error) {
             return res.status(500).json({
                 success:false,
-                message: 'Error at getting the events'
+                message: 'Error at getting the itineraries'
             })
         }
     },
-    getCityById : async (req,res) => {
+    getItinerary : async (req,res) => {
         try {
-            const city = await City.findById(req.params.id).populate('itineraries')
+            const itinerary = await Itinerary.findById(req.params.id)
             
-            if ( city ) {
+            if ( itinerary ) {
                 return res.status(200).json({
                     success:true,
-                    city
+                    itinerary
                 })
             }
             return res.status(404).json({
                 success:false,
-                message: 'Error founding events'
+                message: 'Error founding itinerary'
             })
 
         } catch (error) {
             return res.status(500).json({
                 success:false,
-                message: 'Error at getting the event'
+                message: 'Error at getting the itinerary'
             })
         }
     },
-    createCities: async (req,res) => {
+    createItinerary: async (req,res) => {
         try {
-            const newCity = await City.create(req.body)
+            const newItinerary = await Itinerary.create(req.body)
             return res.status(201).json({
                 success:true,
-                message: 'City created'
+                message: 'Itinerary created'
             })
         } catch (error) {
             return res.status(500).json({
                 success:false,
-                message: 'Error at creating the city'
+                message: 'Error at creating the itinerary'
             })
         }
     },
-    updateCity: async (req,res) => {
+    updateItinerary: async (req,res) => {
         try {
-            await City.updateOne({_id:req.params.id},req.body)
+            await Itinerary.updateOne({_id:req.params.id},req.body)
 
             return res.status(200).json({
                 success:true,
@@ -83,18 +77,18 @@ const controller = {
             })
         }
     },
-    deleteCity: async (req,res) => {
+    deleteItinerary: async (req,res) => {
         try {
-            await City.deleteOne({_id:req.params.id},req.body)
+            await Itinerary.deleteOne({_id:req.params.id},req.body)
 
             return res.status(200).json({
                 success:true,
-                message: "City deleted"
+                message: "Itinerary deleted"
             })
         } catch (error) {
             return res.status(500).json({
                 success:false,
-                message: 'Error at deleting the city'
+                message: 'Error at deleting the itinerary'
             })
         } 
     },

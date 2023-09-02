@@ -8,7 +8,8 @@ const schema = new Schema({
     country: {type:String,required:true},
     img: {type:String,required:true},
     descr: {type:String, required:false},
-    user: {type:Types.ObjectId, ref:'users'}
+    user: {type:Types.ObjectId, ref:'users'},
+    itineraries: [{ type: Types.ObjectId, ref: 'itineraries' }]
 },{
     timestamps:true
 })
