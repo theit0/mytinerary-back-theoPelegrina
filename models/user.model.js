@@ -4,8 +4,12 @@ const collection = 'users'
 
 const schema = new Schema({
     name: {type:String,required:true},
-    email: {type:String},
-    image:{type:String}
+    image:{type:String, required:true},
+    email: {type:String,required:true},
+    password:{type:String,required:true},
+    online: {type:Boolean,default:false},
+    verify: {type:Boolean, default:true},
+    verified_code: {type: String}
 },{
     timestamps:true
 })
