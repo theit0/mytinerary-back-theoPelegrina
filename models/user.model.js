@@ -6,6 +6,7 @@ const schema = new Schema({
     name: {type:String,required:true},
     image:{type:String, required:true},
     email: {type:String,required:true},
+    google: {type:Boolean, default:false},
     password:{type:String,required:true},
     online: {type:Boolean,default:false},
     verify: {type:Boolean, default:true},
