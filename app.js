@@ -13,6 +13,7 @@ app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 app.use(morgan('dev'))
 
+
 app.use('/api', indexRouter);
 
 app.listen(PORT,()=> console.log('Server running on port: '+PORT));
