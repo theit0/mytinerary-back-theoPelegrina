@@ -5,7 +5,7 @@ export const accountExistSignUp = async (req,res,next) =>{
     if(user) {
         return res.status(400).json({
             success:false,
-            message: 'User is already signed up'
+            message: 'User is already registered'
         })
     }
     return next()
